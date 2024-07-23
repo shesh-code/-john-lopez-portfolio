@@ -1,0 +1,404 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+
+    background-color: #070a13;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 4rem;
+    
+}
+a{
+    text-decoration: none;
+    color: #475569;
+    
+}
+a:hover{
+    color: #e11d48;
+}
+.menu{
+    display: flex;
+    padding-right: 6rem;
+    font-family: "Poppins", sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    color: #475569;
+    padding: 20px;
+}
+
+.bi{
+    width: 20px;
+}
+
+.profile-picture{
+    height: 175px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+
+h2{
+    color: #475569;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: auto;
+    font-size: 2rem;
+}
+h1{
+  font-family: "Bungee", sans-serif;
+    color: #94a3b8;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin: auto;
+
+}
+
+#thebutton{
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 25px;
+    background-color: #e11d48;
+    padding: 10px;
+    color: white;
+}
+#thebutton:hover{
+    background-color: white;
+    color: #e11d48;
+}
+p{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+
+    text-align: center;
+}
+#highlights{
+    color: #4f46e5;
+}
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*about*/
+
+.self-info h2{
+    font-size: 2.5rem;
+    color: #4f46e5;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.self-info b{
+    color: #4f46e5;
+}
+
+.about-picture{
+    height: 400px;
+    padding-top: 100px;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+
+}
+
+.abtskills{
+    display: flex;
+    flex-direction: column;
+    padding:100px;
+    max-width: 700px;
+}
+
+
+.skills h2{
+    font-size: 1.3rem;
+    color: #e11d48;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.self-info p{
+    text-align: left;
+} 
+.skills li{
+    text-align: left;
+    font-family: "Bungee", sans-serif;
+    padding: .5rem;
+    color: #e11d48;
+
+} 
+
+.about p{
+    font-size: 1rem;
+}
+
+
+
+
+/*WORK*/
+
+.work-container{
+    display: flex;
+    flex-direction: column;
+}
+.work-container h1{
+    font-size: 200px;
+    padding: 100px;
+}
+
+.work-container h2{
+    color: #e11d48;
+    font-size: 2rem;
+}
+
+
+
+
+
+/*CONTACT*/
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center ;
+    align-content: center;
+    padding: 50px;
+    gap: 30px;
+}
+.contact-container p{
+    max-width: 700px;
+    font-size: 1rem;
+}
+
+.contact-container h2{
+    color: #4f46e5;
+    font-size: 4rem;
+    padding-top: 50px;
+}
+.links .web{
+    font-size: 1rem;
+    font-family: "Bungee", sans-serif;
+    padding: 20px;
+    
+}
+
+
+
+
+#contact-button{
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 25px;
+    background-color: #e11d48;
+    padding: 15px;
+    color: white;
+}
+#contact-button:hover{
+    background-color: white;
+    color: #e11d48;
+
+}
+
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .8rem;
+    padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .johnlopez .profile-picture{
+        height: 125px;
+    }
+    .johnlopez h2{
+        font-size: 1.5rem;
+    }
+    .johnlopez h1{
+        font-size: 4rem;
+    }
+    .johnlopez p{
+        font-size: .75rem;
+    }
+    a{
+        font-size: .75rem;
+    }
+    .bi{
+        width: 15px;
+    }
+    /* about*/
+    .about-picture{
+        height: 300px;
+    }
+
+    .self-info h2{
+        font-size: 1.5rem;
+    }
+    .self-info p{
+        font-size: .75rem;
+    }
+    .skills h2{
+        font-size: 1rem
+    }
+    .skills li{
+        font-size: .9rem;
+    }
+
+/*work*/
+
+.work-container h1{
+    font-size: 100px;
+}
+.work-container h2{
+    font-size: 1.5rem;
+}
+
+/*contact*/
+.contact-container p{
+    min-width: 500px;
+    font-size: .8rem;
+}
+
+.contact-container h2{
+    color: #4f46e5;
+    font-size: 3rem;
+}
+.links .web{
+    font-size: .8rem;
+    font-family: "Bungee", sans-serif;
+    padding: 15px;
+    
+}
+
+}
+@media (max-width:1000px){
+    .about-picture{
+        height: 300px;
+        padding-top: 0px;
+    }
+    .abtskills{
+        padding-bottom: 10px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .abtskills{
+    min-width: 400px;     
+    }
+
+}
+
+
+@media (max-width:650px) {
+    .menu{
+        padding-right: 2rem;
+    }
+    .johnlopez{
+        min-width: 400px;
+    }
+    .johnlopez .profile-picture{
+        height: 100px;
+    }
+    .johnlopez h2{
+        font-size: 1rem;
+    }
+    .johnlopez h1{
+        font-size: 2.5rem;
+    }
+    .johnlopez p{
+        font-size: .6rem;
+    }
+    a{
+        font-size: .55rem;
+    }
+    .bi{
+        width: 10px;
+    }
+        /* about*/
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .abtskills{
+        min-width: 300px;
+    }
+            /* work*/
+    .work-container h2{
+        font-size: 1rem;
+    }
+    .work-container h1{
+        font-size: 50px;
+    }
+    .work-container{
+        min-width: 300px;
+    }
+        /* contact*/
+
+    .contact-container p{
+        min-width: 300px;
+        font-size: .6rem;
+    }
+    
+    .contact-container h2{
+        color: #4f46e5;
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+    .links .web{
+        font-size: .6rem;
+        font-family: "Bungee", sans-serif;
+        padding: 10px;
+        
+    }
+}
+
+
+/*
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 5px solid red;
+width: 80%;
+display: inline-block;
+
+
